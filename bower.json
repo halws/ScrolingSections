@@ -1,0 +1,23 @@
+{
+  "name": "first-test",
+  "authors": [
+    "Nazar <Kotsuyba@gmail.com>"
+  ],
+  "description": "first test",
+  "main": "main.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scrollmagic": "^2.0.5",
+    "jquery": "^3.2.1",
+    "velocity": "^1.5.0"
+  }
+}

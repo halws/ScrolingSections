@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; }
+
+#pinContainer { height: 100vh; overflow: hidden; display: flex; flex-direction: row; position: relative; }
+
+#slideContainer { height: 300%; width: 50%; position: relative; }
+
+#slideContainer2 { height: 300%; width: 50%; position: relative; }
+#slideContainer2 #box { width: 100px; height: 100px; background-color: red; }
+
+.trigger { border-bottom: 1px solid black; width: 100%; }
+
+.panel { display: flex; justify-content: center; align-items: center; width: 100%; height: 33.33333%; }
+.panel.blue { background-color: #3498db; }
+.panel.red { position: relative; background-color: #e74c3c; }
+.panel.green { background-color: #2ecc71; }
+.panel h1 { font-size: 25px; color: #eee; }
+
+/*# sourceMappingURL=style.css.map */
